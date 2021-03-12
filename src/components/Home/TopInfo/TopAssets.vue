@@ -116,7 +116,7 @@ export default class TopAssets extends Vue {
     }
 
     get hexColor(): string {
-        return DEFAULT_NETWORK_ID === 1 ? 'mainnet' : 'testnet'
+        return DEFAULT_NETWORK_ID === 115110116 ? 'mainnet' : 'testnet'
     }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <template v-if="networkID === 1">
+        <template v-if="networkID === 115110116">
             <!-- <v-alert
                 class="testnet_alert mainnet_announcement"
                 text
@@ -65,7 +65,7 @@ export default class TestnetAlert extends Vue {
     }
 }
 
-@if $VUE_APP_DEFAULT_NETWORKID == 1 {
+@if $VUE_APP_DEFAULT_NETWORKID == 115110116 {
     .v-alert--text:before {
         background-color: $white;
     }

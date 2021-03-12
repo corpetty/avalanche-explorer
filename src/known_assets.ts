@@ -3,7 +3,7 @@ const DEFAULT_NETWORK_ID = parseInt(
 )
 
 const AVAX_ID =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_AVAXID as string)
         : (process.env.VUE_APP_TEST_AVAXID as string)
 

@@ -73,7 +73,7 @@ export default class TxRow extends Vue {
 
     get isGenesisVertex(): boolean {
         const genesisTxID =
-            DEFAULT_NETWORK_ID === 1
+            DEFAULT_NETWORK_ID === 115110116
                 ? process.env.VUE_APP_AVAXID
                 : process.env.VUE_APP_TEST_AVAXID
         return this.transaction.id === genesisTxID ? true : false

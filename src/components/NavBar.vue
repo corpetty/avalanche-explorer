@@ -70,13 +70,13 @@ export default Vue.extend({
             return this.$router.currentRoute.name === 'Home' ? false : true
         },
         navColor() {
-            return DEFAULT_NETWORK_ID === 1 ? '#fff' : '#2196f3'
+            return DEFAULT_NETWORK_ID === 115110116 ? '#fff' : '#2196f3'
         },
         logoColor() {
-            return DEFAULT_NETWORK_ID === 1 ? 'light' : 'white'
+            return DEFAULT_NETWORK_ID === 115110116 ? 'light' : 'white'
         },
         cChainURL() {
-            return DEFAULT_NETWORK_ID === 1
+            return DEFAULT_NETWORK_ID === 115110116
                 ? cChainExplorerURL
                 : cChainExplorerURL_test
         },

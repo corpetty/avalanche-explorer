@@ -3,7 +3,7 @@ const DEFAULT_NETWORK_ID = parseInt(
 )
 
 const AVAX_FAUCET_ID =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_FAUCETADDRESS as string)
         : (process.env.VUE_APP_TEST_FAUCETADDRESS as string)
 

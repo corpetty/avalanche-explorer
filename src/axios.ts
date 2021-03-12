@@ -5,7 +5,7 @@ const DEFAULT_NETWORK_ID = parseInt(
 )
 
 const ORTELIUS_URL =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_ORTELIUS_URL as string)
         : (process.env.VUE_APP_TEST_ORTELIUS_URL as string)
 

@@ -9,7 +9,7 @@ export const DEFAULT_NETWORK_ID = parseInt(
     process.env.VUE_APP_DEFAULT_NETWORKID || '1'
 )
 export const DEFAULT_NETWORK_NAME =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_NETWORKNAME as string)
         : (process.env.VUE_APP_TEST_NETWORKNAME as string)
 

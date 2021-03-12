@@ -3,12 +3,12 @@ const DEFAULT_NETWORK_ID = parseInt(
 )
 
 const XCHAINID =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_XCHAINID as string)
         : (process.env.VUE_APP_TEST_XCHAINID as string)
 
 const CCHAINID =
-    DEFAULT_NETWORK_ID === 1
+    DEFAULT_NETWORK_ID === 115110116
         ? (process.env.VUE_APP_CCHAINID as string)
         : (process.env.VUE_APP_TEST_CCHAINID as string)
 

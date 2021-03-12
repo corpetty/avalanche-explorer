@@ -7,7 +7,7 @@ import { IVersion } from './models'
 import { toAVAX } from '@/helper'
 import { getTotalStake } from './peerinfo'
 
-const PEER_INFO_URL = DEFAULT_NETWORK_ID === 1 ? peerInfoURL : peerInfoURL_test
+const PEER_INFO_URL = DEFAULT_NETWORK_ID === 115110116 ? peerInfoURL : peerInfoURL_test
 
 function removePrefix(s: string): string {
     return s.includes('avalanche/') ? s.split('avalanche/')[1] : s

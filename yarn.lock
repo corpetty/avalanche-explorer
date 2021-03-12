@@ -1946,10 +1946,10 @@ autoprefixer@^9.7.4:
     postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
-avalanche@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/avalanche/-/avalanche-3.0.6.tgz#6b341f6f209a2659c80cd00ce24c1d916421cb63"
-  integrity sha512-6oEkvJFCGWwPNGHCzO8G+NDdiulN/3jkxAb1XJ5EO7H/KeBI3ktCHIGZo6WLTim15i9IrViQRjsGN8ZSkYPJiw==
+"avalanche@npm:@arthurk/avalanche@3.0.6-statalanche":
+  version "3.0.6-statalanche"
+  resolved "https://registry.yarnpkg.com/@arthurk/avalanche/-/avalanche-3.0.6-statalanche.tgz#7fa38b01b925ca027fbac0cc7a59aa45daa4dc23"
+  integrity sha512-842AEpV7ywiW+L68Y6uClXh95I6DuswzqIureXwxONp7r1fMiHxSrBv1uuDBqW2kIfCPrfBGow/idr4GKOTrvQ==
   dependencies:
     axios "0.19.2"
     bech32 "1.1.4"

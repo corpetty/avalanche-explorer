@@ -60,7 +60,7 @@ export default class ControlKeyTable extends Vue {
     @Prop() title?: string
 
     get imgColor(): string {
-        return DEFAULT_NETWORK_ID === 1 ? 'testnet' : 'testnet'
+        return DEFAULT_NETWORK_ID === 115110116 ? 'testnet' : 'testnet'
     }
 }
 </script>

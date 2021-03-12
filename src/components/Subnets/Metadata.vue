@@ -97,7 +97,7 @@ export default class Metadata extends Vue {
     @Prop() totalStake!: Big
 
     get imgColor(): string {
-        return DEFAULT_NETWORK_ID === 1 ? 'testnet' : 'testnet'
+        return DEFAULT_NETWORK_ID === 115110116 ? 'testnet' : 'testnet'
     }
 }
 </script>
